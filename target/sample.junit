@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="6" time="328.787256">
+<testcase classname="Validating adactin hotel booking applications" name="User should login with his details and should confirm his login" time="27.068958">
+<skipped><![CDATA[Given user should launch the "https://adactinhotelapp.com/index.php"........passed
+Given user should enter the username "PraveenBpr" and password "123456789" and the login.passed
+Given user should validate his login........................................passed
+Given print the message of the validation...................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Validating adactin hotel booking applications" name="User should login with the incorrect credentials and validate the error message" time="16.728869">
+<system-out><![CDATA[Given user should launch the "https://adactinhotelapp.com/index.php"........passed
+Given user should enter the username "ParveenBpr1" and password "6814614hg" and then login.passed
+Given validate the error message is displayed or not........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating adactin hotel booking applications" name="User should login with his details and provide important fields" time="103.449897">
+<system-out><![CDATA[Given user should launch the "https://adactinhotelapp.com/index.php"........passed
+Given user should enter the username "PraveenBpr" and password "123456789" and the login.passed
+When user should select the important details "Sydney","Standard" ,"20/05/2022","21/05/2022", "2 - Two" , "2 - Two" and search.passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating adactin hotel booking applications" name="User should login with his details and provide the wrong details in date and validate the error message" time="43.891324">
+<skipped><![CDATA[Given user should launch the "https://adactinhotelapp.com/index.php"........passed
+Given user should enter the username "PraveenBpr" and password "123456789" and the login.passed
+When user should select the wrong details "Sydney","Standard" ,"21/05/2022","20/05/2022", "2 - Two" , "2 - Two" and search.passed
+Given user should validate the error msg and print the message..............undefined
+]]></skipped>
+</testcase>
+<testcase classname="Validating adactin hotel booking applications" name="User should book the hotel and then cancel the particular booking" time="96.629456">
+<system-out><![CDATA[Given user should launch the "https://adactinhotelapp.com/index.php"........passed
+Given user should enter the username "PraveenBpr" and password "123456789" and the login.passed
+When user should select the  valid details "Sydney","Hotel Creek","Standard" , "2 - Two" , "2 - Two","2 - Two".passed
+Given user should select the hotel and click continue.......................passed
+And user should enter the details "Praveen","Raj","kpm","1234567890123456","VISA","January","2022","154" and click book.passed
+Then user should get the OrderId............................................passed
+Then user should cancel the order with that particular orderId..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating adactin hotel booking applications" name="User should login and then cancel the any bookings in the listed" time="41.018752">
+<system-out><![CDATA[Given user should launch the "https://adactinhotelapp.com/index.php"........passed
+Given user should enter the username "PraveenBpr" and password "123456789" and the login.passed
+Given user should enter into the Booked Iternary and then select the orderId and then click cancel..passed
+]]></system-out>
+</testcase>
+</testsuite>

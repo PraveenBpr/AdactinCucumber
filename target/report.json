@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 40,
+        "name": "User should login and then cancel the any bookings in the listed",
+        "description": "",
+        "id": "validating-adactin-hotel-booking-applications;user-should-login-and-then-cancel-the-any-bookings-in-the-listed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1132400,
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "user should launch the \"https://adactinhotelapp.com/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://adactinhotelapp.com/index.php\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDef.user_should_launch_the(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23000,
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "user should enter the \"PraveenBpr\" and \"123456789\" and the login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PraveenBpr\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"123456789\"",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDef.user_should_enter_the_and_and_the_login(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 36,
+            "name": "user should enter into the Booked Iternary and then select the orderId and then click cancel.",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Validating adactin hotel booking applications",
+    "description": "",
+    "id": "validating-adactin-hotel-booking-applications",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Adactin1.feature",
+    "tags": []
+  }
+]

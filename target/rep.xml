@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0.009159">
+<testcase classname="Validating adactin hotel booking applications" name="User should login and then cancel the any bookings in the listed" time="0.009159">
+<skipped><![CDATA[Given user should launch the "https://adactinhotelapp.com/index.php"........skipped
+Given user should enter the "PraveenBpr" and "123456789" and the login......skipped
+Given user should enter into the Booked Iternary and then select the orderId and then click cancel..undefined
+]]></skipped>
+</testcase>
+</testsuite>
